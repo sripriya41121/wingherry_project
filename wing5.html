@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+  <style>
+
+      #img1{
+          width: 1500px;
+          height: 1300px;
+          opacity: 0.7;
+      }
+      #img2{
+        position: absolute;
+            top: 130px;
+            left: 320px;
+            opacity: 0.7;
+            
+            height: 1100px;
+            width: 60%;
+      }
+
+
+      #a1{
+                position: absolute;
+                top: 50px;
+                left: 100px;
+                font-size: 35px;
+                font-style: italic;
+                color: darkblue;
+      
+      }
+      #log1{
+        position: absolute;
+                top: 50px;
+                left: 1100px;
+            background: darkblue;
+            padding: 10px;
+            margin-left: 150px;
+            border-radius: 20px;
+            color: wheat;
+
+      }
+
+
+
+
+
+
+      #lab1{
+           position: absolute;
+           top: 300px;
+           left: 500px;
+           color: darkblue;
+           font-size: 20px;
+
+       }
+       #inp1{
+           position: absolute;
+           top: 300px;
+           left: 600px;
+           
+           
+           
+       }
+       #lab2{
+           position: absolute;
+           top: 300px;
+           left: 800px;
+           
+           font-size: 20px;
+           color: darkblue;
+
+       }
+       #inp2{
+           position: absolute;
+           top: 300px;
+           left: 900px;
+
+       }
+
+       #gen1{
+        position: absolute;
+           top: 400px;
+           left: 500px;
+           
+           font-size: 20px;
+           color: darkblue;
+
+       }
+       select#gender
+       { 
+        position: absolute;
+           top: 400px;
+           left: 600px;
+
+       }
+       #mob1{
+        position: absolute;
+           top: 400px;
+           left: 800px;
+           color: darkblue;
+           font-size: 20px;
+
+
+       }
+
+       #mob2{
+           position: absolute;
+           top: 400px;
+           left: 900px;
+
+       }
+
+       #add1{
+        position: absolute;
+           top: 500px;
+           left: 500px;
+           color: darkblue;
+           font-size: 20px;
+
+       }
+   #add2{
+    position: absolute;
+           top: 500px;
+           left: 600px;
+
+
+   }
+   #mail1{
+    position: absolute;
+           top: 500px;
+           left: 800px;
+           color: darkblue;
+           font-size: 20px;
+
+   }
+
+   #mail2{
+    position: absolute;
+           top: 500px;
+           left: 900px;
+           color: darkblue;
+           
+
+   }
+
+   #newp{
+    position: absolute;
+           top: 600px;
+           left: 500px;
+           color: darkblue;
+           font-size: 20px;
+
+
+
+   }
+
+   #newp2{
+    position: absolute;
+           top: 600px;
+           left: 600px;
+
+
+
+
+   }
+
+
+
+
+
+
+   input[type="button"]{
+
+    position: absolute;
+    top: 550px;
+    left: 585px;
+
+    background: darkblue;
+    padding: 10px;
+    margin-left: 150px;
+    border-radius: 20px;
+    color: wheat;
+    font-size: 15px;
+   }
+
+
+   #pass1{
+    position: absolute;
+           top: 770px;
+           left: 500px;
+           color: darkblue;
+           font-size: 20px;
+
+}
+#passinp1{
+    position: absolute;
+           top: 770px;
+           left: 600px;
+
+}
+#cpass1{
+
+    position: absolute;
+           top: 770px;
+           left: 800px;
+           color: darkblue;
+           font-size: 20px;
+
+}
+#cpassinp1{
+
+    position: absolute;
+           top: 770px;
+           left: 900px;
+          
+}
+
+
+#sdate1{
+    position: absolute;
+           top: 860px;
+           left: 500px;
+           color: darkblue;
+           font-size: 20px;
+
+
+}
+
+#sdate2{
+
+    position: absolute;
+           top: 860px;
+           left: 600px;
+
+
+}
+
+#edate1{
+
+    position: absolute;
+           top: 860px;
+           left: 800px;
+           color: darkblue;
+           font-size: 20px;
+
+
+
+}
+
+
+#edate2{
+
+    position: absolute;
+           top: 860px;
+           left: 900px;
+
+
+
+}
+  #addpro1{
+    position: absolute;
+    top: 890px;
+    left: 590px;
+
+    background: darkblue;
+    padding: 10px;
+    margin-left: 150px;
+    border-radius: 20px;
+    color: wheat;
+    font-size: 15px;
+  }
+
+
+  #pro1{
+    position: absolute;
+           top: 1000px;
+           left: 500px;
+           color: darkblue;
+           font-size: 20px;
+  }
+   select#pro2{
+       
+    position: absolute;
+           top: 1000px;
+           left: 620px;
+
+   }
+
+
+   #task1{
+
+       position: absolute;
+       top: 1000px;
+       left: 790px;
+       color: darkblue;
+       font-size: 20px;
+
+
+
+}
+
+
+#task2{
+
+       position: absolute;
+       top: 1000px;
+       left: 900px;
+
+
+
+
+}
+
+
+
+
+#addpro2{
+    position: absolute;
+    top: 1030px;
+    left: 590px;
+
+    background: darkblue;
+    padding: 10px;
+    margin-left: 150px;
+    border-radius: 20px;
+    color: wheat;
+    font-size: 15px;
+  }
+
+
+
+  #userbutton{
+    position: absolute;
+    top: 150px;
+    left: 350px;
+
+    background: darkblue;
+    padding: 10px;
+    margin-left: 150px;
+    border-radius: 20px;
+    color: wheat;
+    font-size: 15px;
+
+  }
+
+
+  #probutton{
+    position: absolute;
+    top: 150px;
+    left: 600px;
+
+    background: darkblue;
+    padding: 10px;
+    margin-left: 150px;
+    border-radius: 20px;
+    color: wheat;
+    font-size: 15px;
+
+}
+
+  #taskbutton{
+    position: absolute;
+    top: 150px;
+    left: 850px;
+
+    background: darkblue;
+    padding: 10px;
+    margin-left: 150px;
+    border-radius: 20px;
+    color: wheat;
+    font-size: 15px;
+  }
+
+  
+
+  h5#head5{
+
+      position: absolute;
+      top: 200px;
+      left: 495px;
+      font-size: 20px;
+      color: darkblue;
+      
+
+  }
+
+  h5#head6{
+    position: absolute;
+      top: 200px;
+      left: 800px;
+      font-size: 20px;
+      color: darkblue;
+      
+
+
+  }
+  #addu1{
+      position: absolute;
+      top: 625px;
+      left: 600px;
+
+  }
+
+
+
+
+  
+
+
+
+  </style>
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+    <img id="img1" src="https://i.imgur.com/4Ar6lNK.jpg" alt="" width="100%">
+    <a id="a1" href="">ADMIN DASHBOARD</a>
+    <img id="img2" src="https://www.elsetge.cat/myimg/f/87-876260_plain-white-wallpaper-for-iphone-plain-white-wallpaper.jpg" alt="" width="100%">
+    
+     
+    
+<div>
+    <form action="/action_page.php"> 
+    
+      <label id="lab1" for="fname"> First Name</label>
+
+      <input id="inp1" type="text" class="form-control" id="mail" name="mail" placeholder="Your first name....">
+      
+         
+    
+      <label id="lab2" for="lname">Last Name</label>
+      <input id="inp2" type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+<br>
+
+
+<label id="gen1" for="gender">Gender</label>
+    <select id="gender" name="Gender">
+      <option value="Female">Female</option>
+      <option value="Male">Male</option>
+      <option value="Transgender">Transgender</option>
+    </select>
+    <label id="mob1"  for="Mobile">Mobile</label>
+    <input id="mob2" type="text" id="mobile" name="Mobile" placeholder="Your Contact No....">
+
+<br>
+<label id="add1" for="Address">Address</label>
+    <input id="add2" type="text" id="mobile" name="lastname" placeholder="Your Address....">
+
+
+    <label id="mail1" for="Email">Email</label>
+    <input id="mail2" type="text" id="email" name="email" placeholder="Your email....">
+
+
+    <label id="newp" for="password">Password</label>
+    <input id="newp2" type="text" id="password" name="password" placeholder="Your password....">
+
+    <br>
+
+
+    <label id="pass1" for="Address">Project</label>
+    <input id="passinp1" type="text" id="mobile" name="lastname" placeholder="your project....">
+
+
+    <label id="cpass1" for="password">Name</label>
+    <input id="cpassinp1" type="text" id="password" name="confirm password" placeholder="your name....">
+
+<br>
+
+<label id="sdate1" for="date">Start Date</label>
+<input id="sdate2" type="text" id="date" name="date" placeholder="your start date....">
+
+
+<label id="edate1"  for="date">End Date</label>
+<input id="edate2" type="text" id="date" name="date" placeholder="your end date....">
+
+<br>
+
+<label id="pro1" for="gender">Select Project</label>
+    <select id="pro2" name="project">
+      <option value="Female">Project 1</option>
+      <option value="Male">Project 2</option>
+      <option value="Transgender">Project 3</option>
+      <option value="Male">Project 4</option>
+      <option value="Transgender">Project 5</option>
+    </select>
+
+
+<label id="task1"  for="date">Task Name</label>
+<input id="task2" type="text" id="date" name="date" placeholder="your task name....">
+
+<br>
+
+
+    
+      
+    
+    <input id="addu1" type="button" value="Add User">
+
+    <input id="addpro1" type="button" value="Add Project">
+    <input id="addpro2" type="button" value="Add Task">
+
+    <input id="log1" type="button" value="Logout">
+
+
+    <input id="userbutton" type="button" value="User Profile">
+    <input id="probutton" type="button" value="Project">
+    <input id="taskbutton" type="button" value="Task">
+
+    
+
+     
+    </form>
+  </div>
+  <h5 id="head5">No. of users:</h5>
+    <h5 id="head6">No. of projects:</h5>
+
+
+    
+</body>
+</html>
